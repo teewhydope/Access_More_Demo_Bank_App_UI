@@ -1,8 +1,6 @@
 import 'package:access_bank/Dashboard/tab_bar.dart';
 import 'package:flutter/material.dart';
 
-import '../../Dashboard/screens/dashboard.dart';
-
 class SlideTextButton extends StatefulWidget {
   @override
   _SlideTextButtonState createState() => _SlideTextButtonState();

@@ -62,3 +62,11 @@ const ImageSlider = [
   Models(images: 'assets/images/slider4.jpg'),
   //Models(images: 'assets/images/Slider1.png'),
 ];
+const BankingOptions = [
+  Models(labels: 'Account'),
+  Models(labels: 'Transfer and Withdrawal'),
+  Models(labels: 'Payments'),
+  Models(labels: 'Lifestyle'),
+  Models(labels: 'Cheques & Cards'),
+  Models(labels: 'Loans & Investments'),
+];

@@ -12,24 +12,22 @@ class SignIn extends StatefulWidget {
 class _SignInState extends State<SignIn> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        backgroundColor: Color.fromRGBO(229, 230, 234, 1),
-        body: SafeArea(
-          child: SingleChildScrollView(
-            child: Column(
-              children: [
-                Container(
-                    height: MediaQuery.of(context).size.height * 0.15,
-                    child: LogoFlag()),
-                SizedBox(
-                  height: MediaQuery.of(context).size.height * 0.25,
-                ),
-                Container(
-                    height: MediaQuery.of(context).size.height * 0.4,
-                    child: SlideTextButton()),
-              ],
-            ),
+    return Scaffold(
+      backgroundColor: Color.fromRGBO(229, 230, 234, 1),
+      body: SafeArea(
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              Container(
+                  height: MediaQuery.of(context).size.height * 0.15,
+                  child: LogoFlag()),
+              SizedBox(
+                height: MediaQuery.of(context).size.height * 0.25,
+              ),
+              Container(
+                  height: MediaQuery.of(context).size.height * 0.4,
+                  child: SlideTextButton()),
+            ],
           ),
         ),
       ),
